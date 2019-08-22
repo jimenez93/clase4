@@ -1,0 +1,12 @@
+s{
+	color:blue;
+}
+.mifoto{
+	width:500px;
+	filter:grayscale(1);
+	transition: all linear 1s;
+}
+.mifoto:hover{
+	filter:grayscale(0);
+	transform:rotate(10deg) scale(1.3,1.3);
+}
